@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noughts and Crosses</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="grid h-screen w-screen bg-black justify-items-center align-content-center">
+        <div class=" ">
+            <a src=""><pre class="declaration cursor-hover cursor-pointer text-white text-2xl font-light text-center mt-10"></pre></a>
+        </div>
+        <div class="bg-black h-42 w-42 inline-grid grid-cols-3 gap-0">
+            <div class="grid h-14 align-bottom ">
+                <div class="tap text-white font-light border-solid border-2 border-white-100 h-14 w-14"><img class="image" src='' alt=""><p class="hidden"></p><b class="hidden">1</b></div>
+                <div class="tap text-white font-light border-solid border-2 border-white-100 h-14 w-14"><img class="image" src="" alt=""><p class="hidden"></p><b class="hidden">2</b></div>
+                <div class="tap text-white font-light border-solid border-2 border-white-100 h-14 w-14"><img class="image" src="" alt=""><p class="hidden"></p><b class="hidden">3</b></div>
+            </div>
+            <div  class="grid h-14 align-center ">
+                <div class="tap text-white font-light border-solid border-2 border-white-100 h-14 w-14"><img class="image" src="" alt=""><p class="hidden"></p><b class="hidden">4</b></div>
+                <div class="tap text-white font-light border-solid border-2 border-white-100 h-14 w-14"><img class="image" src="" alt=""><p class="hidden"></p><b class="hidden">5</b></div>
+                <div class="tap text-white font-light border-solid border-2 border-white-100 h-14 w-14"><img class="image" src="" alt=""><p class="hidden"></p><b class="hidden">6</b></div>
+            </div>
+            <div class="grid h-14 align-top ">
+                <div class="tap text-white font-light border-solid border-2 border-white-100 h-14 w-14"><img class="image" src="" alt=""><p class="hidden"></p><b class="hidden">7</b></div>
+                <div class="tap text-white font-light border-solid border-2 border-white-100 h-14 w-14"><img class="image" src="" alt=""><p class="hidden"></p><b class="hidden">8</b></div>
+                <div class="tap text-white font-light border-solid border-2 border-white-100 h-14 w-14"><img class="image" src="" alt=""><p class="hidden"></p><b class="hidden">9</b></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="game.js"></script>
+</body>
+</html>
